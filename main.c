@@ -3,6 +3,9 @@
 int
 main(void)
 {
-    printf("hello, world\n");
+    printf("%f\n", 10.0 + 3.0);
+    printf("%f\n", 10.0 - 3.0);
+    printf("%f\n", 10.0 * 3.0);
+    printf("%f\n", 10.0 / 3.0);
     return 0;
 }
