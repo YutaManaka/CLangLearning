@@ -3,6 +3,7 @@
 int
 main(void)
 {
-    printf("hello, world\n");
+    printf("Intel\t: Pentium4\n");
+    printf("AMD\t: Athlon64\n");
     return 0;
 }
