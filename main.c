@@ -3,6 +3,8 @@
 int
 main(void)
 {
-    printf("hello, world\n");
+    printf("hello,\nworld\n");
+    printf("Windows\tMicrosoft\n");
+    printf("MacOS\tApple\n");
     return 0;
 }
