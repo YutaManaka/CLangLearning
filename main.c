@@ -3,6 +3,10 @@
 int
 main(void)
 {
-    printf("hello, world\n");
+    /*
+    これは、これ全部が、
+    コメントです。
+    */
+    printf("hello, world\n"); /* ここもコメントです */
     return 0;
 }
