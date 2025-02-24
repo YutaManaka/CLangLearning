@@ -4,7 +4,9 @@ C言語の学習を始めたので、学習内容を残すために活用する�
 
 # 参考サイト
 - https://zenn.dev/kusaremkn/articles/60c3f92636321d
-  - Macで間単にC言語の環境構築ができる
+  - Macで間単にC言語の環境構築ができる(コンソールに日本語表示できなかった)
+- https://daeudaeu.com/vscose_debug_c/
+  - 日本語をコンソールに表示させるためにはデバッガはLLDBがおすすめ
 - https://dotinstall.com/lessons/basic_c
     - 古すぎる(2021年)
 - https://9cguide.appspot.com/index.html
