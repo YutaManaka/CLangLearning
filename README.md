@@ -8,7 +8,7 @@ C言語の学習を始めたので、学習内容を残すために活用する�
 - https://daeudaeu.com/vscose_debug_c/
   - 日本語をコンソールに表示させるためにはデバッガはLLDBがおすすめ
 - https://dotinstall.com/lessons/basic_c
-    - 古すぎる(2021年)
+    - 古すぎる(2012年)
 - https://9cguide.appspot.com/index.html
     - 環境構築なしで始められる
     - 練習問題と解答例がある
