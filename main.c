@@ -3,6 +3,8 @@
 int
 main(void)
 {
-    printf("hello, world\nこんにちわ\n");
+    printf("%d\n", 1.05 * 360);
+    printf("%f\n", 1.05 * 360);
+    printf("%d\n", (int)(1.05 * 360));
     return 0;
 }
