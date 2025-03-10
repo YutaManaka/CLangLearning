@@ -3,6 +3,16 @@
 int
 main(void)
 {
-    printf("hello, world\nこんにちわ\n");
+    int r;
+    double s;
+
+    do {
+        printf("半径？:");
+        scanf("%d", &r);
+    } while (r < 0);
+
+    s = r * r * 3.14;
+    printf("面積は %f です。\n", s);
+
     return 0;
 }
