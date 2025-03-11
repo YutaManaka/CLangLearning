@@ -1,8 +1,18 @@
 #include <stdio.h>
+#include <ctype.h>
 
-int
-main(void)
+int main(void)
 {
-    printf("hello, world\nこんにちわ\n");
+    char c = 'A';
+    int suuti;
+
+    if (isdigit(c)) {
+        /* 判定部分 */
+        suuti = c - '0';
+    } else {
+        suuti = 0;
+    }
+
+    printf("%d\n",suuti);
     return 0;
 }
