@@ -3,6 +3,14 @@
 int
 main(void)
 {
-    printf("hello, world\nこんにちわ\n");
+    int *p;
+    int i;
+    p = &i;
+    printf("p  = %p\n", p);
+    printf("&i = %p\n", &i);
+
+    *p = 10; /* 通常変数モードに切り替えたポインタ変数に代入 */
+    printf("*p = %d\n", *p);
+    printf("i = %d\n", i);
     return 0;
 }
